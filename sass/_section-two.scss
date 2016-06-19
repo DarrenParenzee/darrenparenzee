@@ -1,7 +1,6 @@
 @import 'variables';
 
-.section-two-background {
-  background-color: $color-dark-light;
+.section-background {
   padding-bottom: 50px;
 
   p {
@@ -13,11 +12,23 @@
       color: $link-color;
     }
   }
+
+  .btn {
+    margin: 40px 0;
+  }
 }
 
 .headings {
   @extend %navbar-brand;
   font-size: $font-large;
   letter-spacing: 2px;
-  padding-top: 80px;
+  padding: 80px 0 40px;
+}
+
+.section-two-bg-colour {
+  background-color: $color-dark-light;
+}
+
+.section-three-bg-colour {
+  background-color: $color-grey;
 }

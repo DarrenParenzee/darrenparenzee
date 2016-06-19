@@ -1,0 +1,47 @@
+@import 'variables';
+
+footer {
+  margin-bottom: 10px;
+}
+
+.footer-headings {
+  color: $color-dark-medium;
+  font-size: $font-large;
+  letter-spacing: 2px;
+  padding: 80px 0 40px;
+}
+
+h3 {
+  color: $color-dark-light;
+  font-family: $font-family;
+  font-weight: $font-weight-light;
+}
+
+.form {
+  input {
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    margin: 20px 0;
+    padding: 15px 0;
+    width: 60%;
+  }
+
+  .message-box {
+    width: 100%;
+}
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+}
+
+.fa {
+  color: $color-dark-medium;
+  font-size: 24px !important;
+}
+
+.footer-fa-spacing {
+  padding-right: 25px;
+}

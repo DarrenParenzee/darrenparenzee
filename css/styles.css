@@ -43,7 +43,7 @@ template {
   display: none; }
 
 a {
-  background-color: transparent; }
+  text-decoration: none; }
 
 a:active,
 a:hover {
@@ -1093,20 +1093,6 @@ textarea {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit; }
-
-a {
-  color: #337ab7;
-  text-decoration: none; }
-
-a:hover,
-a:focus {
-  color: #23527c;
-  text-decoration: underline; }
-
-a:focus {
-  outline: thin dotted;
-  outline: 5px auto -webkit-focus-ring-color;
-  outline-offset: -2px; }
 
 figure {
   margin: 0; }
@@ -2974,9 +2960,9 @@ select[multiple].input-lg {
     font-size: 12px; } }
 .btn {
   display: inline-block;
-  padding: 6px 12px;
+  padding: 12px 24px;
   margin-bottom: 0;
-  font-size: 14px;
+  font-size: 24px;
   font-weight: normal;
   line-height: 1.42857143;
   text-align: center;
@@ -2990,8 +2976,7 @@ select[multiple].input-lg {
   -ms-user-select: none;
   user-select: none;
   background-image: none;
-  border: 1px solid transparent;
-  border-radius: 4px; }
+  border: 1px solid transparent; }
 
 .btn:focus,
 .btn:active:focus,
@@ -3031,25 +3016,25 @@ fieldset[disabled] a.btn {
 
 .btn-default {
   color: #333;
-  background-color: #fff;
-  border-color: #ccc; }
+  background-color: #B6D844;
+  border-color: #B6D844; }
 
 .btn-default:focus,
 .btn-default.focus {
   color: #333;
-  background-color: #e6e6e6;
-  border-color: #8c8c8c; }
+  background-color: #76901E;
+  border-color: #76901E; }
 
 .btn-default:hover {
   color: #333;
-  background-color: #e6e6e6;
-  border-color: #adadad; }
+  background-color: #76901E;
+  border-color: #76901E; }
 
 .btn-default:active,
 .btn-default.active,
 .open > .dropdown-toggle.btn-default {
   color: #333;
-  background-color: #e6e6e6;
+  background-color: #B6D844;
   border-color: #adadad; }
 
 .btn-default:active:hover,
@@ -3062,8 +3047,8 @@ fieldset[disabled] a.btn {
 .btn-default.active.focus,
 .open > .dropdown-toggle.btn-default.focus {
   color: #333;
-  background-color: #d4d4d4;
-  border-color: #8c8c8c; }
+  background-color: #76901E;
+  border-color: #76901E; }
 
 .btn-default:active,
 .btn-default.active,
@@ -6609,6 +6594,44 @@ button.close {
   .hidden-print {
     display: none !important; } }
 /*# sourceMappingURL=bootstrap.css.map */
+.btn :hover {
+  background: #3071A9; }
+
+footer {
+  margin-bottom: 10px; }
+
+.footer-headings {
+  color: #4f4f4f;
+  font-size: 40px;
+  letter-spacing: 2px;
+  padding: 80px 0 40px; }
+
+h3 {
+  color: #6e6e6e;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300; }
+
+.form input {
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  margin: 20px 0;
+  padding: 15px 0;
+  width: 60%; }
+.form .message-box {
+  width: 100%; }
+
+input:focus,
+textarea:focus {
+  outline: none; }
+
+.fa {
+  color: #4f4f4f;
+  font-size: 24px !important; }
+
+.footer-fa-spacing {
+  padding-right: 25px; }
+
 .navbar-brand,
 .headings {
   color: #fff;
@@ -6635,19 +6658,53 @@ button.close {
   letter-spacing: 2px;
   padding-top: 80px; }
 
-.section-two-background {
-  background-color: #6e6e6e;
+.section-background {
   padding-bottom: 50px; }
-  .section-two-background p {
+  .section-background p {
     color: #fff;
     font-size: 24px;
     padding-top: 20px; }
-    .section-two-background p a {
+    .section-background p a {
       color: #f5a623; }
+  .section-background .btn {
+    margin: 40px 0; }
 
 .headings {
   font-size: 40px;
   letter-spacing: 2px;
-  padding-top: 80px; }
+  padding: 80px 0 40px; }
+
+.section-two-bg-colour {
+  background-color: #6e6e6e; }
+
+.section-three-bg-colour {
+  background-color: #979797; }
+
+.underline-animate {
+  color: #f5a623;
+  position: relative;
+  text-decoration: none; }
+
+.underline-animate:hover {
+  color: #f5a623; }
+
+.underline-animate:before {
+  background-color: #f5a623;
+  bottom: 0;
+  content: '';
+  height: 2px;
+  left: 0;
+  position: absolute;
+  -webkit-transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transform: scaleX(0);
+  transition: all .3s ease-in-out 0s;
+  visibility: hidden;
+  width: 100%; }
+
+.underline-animate:hover::before {
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+  visibility: visible; }
 
 /*# sourceMappingURL=styles.css.map */

@@ -46,8 +46,9 @@ template {
   display: none;
 }
 a {
-  background-color: transparent;
+  text-decoration: none;
 }
+
 a:active,
 a:hover {
   outline: 0;
@@ -1105,20 +1106,6 @@ textarea {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
-}
-a {
-  color: #337ab7;
-  text-decoration: none;
-}
-a:hover,
-a:focus {
-  color: #23527c;
-  text-decoration: underline;
-}
-a:focus {
-  outline: thin dotted;
-  outline: 5px auto -webkit-focus-ring-color;
-  outline-offset: -2px;
 }
 figure {
   margin: 0;
@@ -3014,9 +3001,9 @@ select[multiple].input-lg {
 }
 .btn {
   display: inline-block;
-  padding: 6px 12px;
+  padding: 12px 24px;
   margin-bottom: 0;
-  font-size: 14px;
+  font-size: 24px;
   font-weight: normal;
   line-height: 1.42857143;
   text-align: center;
@@ -3031,7 +3018,6 @@ select[multiple].input-lg {
           user-select: none;
   background-image: none;
   border: 1px solid transparent;
-  border-radius: 4px;
 }
 .btn:focus,
 .btn:active:focus,
@@ -3071,25 +3057,25 @@ fieldset[disabled] a.btn {
 }
 .btn-default {
   color: #333;
-  background-color: #fff;
-  border-color: #ccc;
+  background-color: #B6D844;
+  border-color: #B6D844;
 }
 .btn-default:focus,
 .btn-default.focus {
   color: #333;
-  background-color: #e6e6e6;
-  border-color: #8c8c8c;
+  background-color: #76901E;
+  border-color: #76901E;
 }
 .btn-default:hover {
   color: #333;
-  background-color: #e6e6e6;
-  border-color: #adadad;
+  background-color: #76901E;
+  border-color: #76901E;
 }
 .btn-default:active,
 .btn-default.active,
 .open > .dropdown-toggle.btn-default {
   color: #333;
-  background-color: #e6e6e6;
+  background-color: #B6D844;
   border-color: #adadad;
 }
 .btn-default:active:hover,
@@ -3102,8 +3088,8 @@ fieldset[disabled] a.btn {
 .btn-default.active.focus,
 .open > .dropdown-toggle.btn-default.focus {
   color: #333;
-  background-color: #d4d4d4;
-  border-color: #8c8c8c;
+  background-color: #76901E;
+  border-color: #76901E;
 }
 .btn-default:active,
 .btn-default.active,

@@ -1,0 +1,32 @@
+@import 'variables';
+
+.underline-animate {
+  color: $link-color;
+  position: relative;
+  text-decoration: none;
+}
+
+.underline-animate:hover {
+  color: $link-color;
+}
+
+.underline-animate:before {
+  background-color: $link-color;
+  bottom: 0;
+  content: '';
+  height: 2px;
+  left: 0;
+  position: absolute;
+  -webkit-transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transform: scaleX(0);
+  transition: all .3s ease-in-out 0s;
+  visibility: hidden;
+  width: 100%;
+}
+
+.underline-animate:hover::before {
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+  visibility: visible;
+}
