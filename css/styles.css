@@ -6644,6 +6644,10 @@ textarea:focus {
 
 .section-one-background {
   background-color: #4f4f4f;
+  background-image: url("../images/profile-pic.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
   margin-top: 50px;
   padding-bottom: 50px; }
   .section-one-background p {
